@@ -1,1 +1,1 @@
-# ers-website
+# ers-workshop-website
