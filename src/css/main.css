@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+}
+
+a img {
+  border: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #448aff;
+  font-weight: 300;
+}
+
+figure {
+  margin: 0px !important; 
+}
+
+figcaption {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+::-moz-selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+::selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+.section {
+  padding-top: 5px;
+  padding-bottom: 35px;
+}
+
+.section-body {
+  width: 70%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.section-body ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section-body h2, .section-body h3, .section-body, .section-body p, .section-body li {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+.section-body h2, .section-body h3 {
+  font-weight: bold;
+  color: #313131;
+  letter-spacing: 1px;
+}
+
+.section-body h2 {
+  font-size: 35px
+}
+
+.section-body h3 {
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.section-body h4 {
+  margin-top: 0px;
+}
+
+.section-body h4, .section-body h5 {
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.section-body, .section-body p, .section-body li {
+  font-size: 18px;
+  color: #383a3c;
+  font-weight: 300;
+}
+
+.mdl-button {
+  margin-right: 10px;
+  margin-bottom: 13px;
+}
+
+.mdl-list__item {
+  min-height: 10px;
+  padding: 3px;
+}
+
+.mdl-list__item-icon {
+  margin-right: 5px;
+}
+
+.mdl-mega-footer {
+  text-align: center;
+  background-color: #999;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.mdl-card-image__caption {
+  text-align: center;
+  padding-top: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  line-height: 1;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.mdl-card-image__entry {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.mdl-data-table {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.mdl-data-table th {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.mdl-data-table tbody tr {
+  height: auto;
+}
+
+.mdl-data-table td {
+  padding: 6px 10px;
+  height: auto;
+}
+
+#banner {
+  height: 250px;
+  padding-top: 80px;
+  background-image: url(../img/banner-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom 30%;
+  text-align: center;
+}
+
+#logo {
+  font: 45px 'Roboto', 'Helvetica', sans-serif;
+  line-height: 1;
+  color: #fff;
+  /* text-shadow: 0px 1px 2px rgba(0, 0, 0, .8); */
+  margin-bottom: 20px;
+}
+
+#slogan {
+  font: 25px 'Roboto', 'Helvetica', sans-serif;
+  line-height: 1;
+  color: #fff;
+  /* text-shadow: 0px 1px 2px rgba(0, 0, 0, .8); */
+}
+
+#date {
+  font: 25px 'Roboto', 'Helvetica', sans-serif;
+  line-height: 1;
+  color: #fff;
+  /* text-shadow: 0px 1px 2px rgba(0, 0, 0, .8); */
+  margin-bottom: 20px;
+}
+
+#about {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+#about p {
+  text-align: justify;
+}
+
+#organizers, #accepted-papers {
+  background-color: #eeeeeec7;
+}
+
+#primary-contact-instruction {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.denoter {
+  color: #ff0000;
+}
+
+#schedule .mdl-grid {
+  padding: 0px !important;
+}
+
+.time {
+  color: #982833;
+  font-weight: 400;
+}
+
+.description {
+  color: #0a4489;
+  font-weight: 400;
+}
+
+#organizers .mdl-card-image__caption {
+  height: 30px;
+  vertical-align: middle;
+  line-height: 1;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#organizers .mdl-card-image {
+  width: 300px;
+  height: 200px;
+}
+
+.mdl-card-image__hadfield-menell {
+  background: url('../img/dylan-hadfield-menell-photo.png') center / cover;
+}
+
+.mdl-card-image__svegliato {
+  background: url('../img/justin-svegliato-photo.jpeg') center / cover;
+}
+
+.mdl-card-image__nashed {
+  background: url('../img/samer-nashed-photo.jpeg') center / cover;
+}
+
+.mdl-card-image__dennis {
+  background: url('../img/louise-dennis-photo.jpeg') center / cover;
+}
+
+.mdl-card-image__winfield {
+  background: url('../img/alan-winfield-photo.webp') center / cover;
+}
+.mdl-card-image__bello {
+  background: url('../img/enobong_hannah_branch.jpg') center / cover;
+}
+
+.empty-cell {
+  text-align: center !important;
+  color: #ff0000;
+}
+
+.yellow {
+  color: #d4b003;
+  font-weight: normal;
+}
+
+.purple {
+  color: #673756;
+  font-weight: normal;
+}
+
+.green {
+  color: #3a7a56;
+  font-weight: normal;
+}
+
+.blue {
+  color: #103261;
+  font-weight: normal;
+}
+
+.red {
+  color: #93302f;
+  font-weight: normal;
+}
+
+@media (max-width: 1024px) {
+  #banner {
+    height: 360px;
+  }
+
+  #logo {
+    font-size: 30px;
+  }
+
+  #slogan, #date {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .section-body {
+    width: 85%;
+  }
+
+  figure img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 400px;
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+
+  .mdl-cell {
+    width: 100%;
+  }
+
+  #organizers .mdl-card-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+  }
+}
