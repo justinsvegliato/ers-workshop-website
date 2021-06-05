@@ -192,6 +192,10 @@ figcaption {
   margin-right: auto;
 }
 
+#contact-information {
+  margin-top: 15px;
+}
+
 #primary-contact-instruction {
   text-align: center;
 }
