@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Helvetica', sans-serif;
 }
 
 a img {
@@ -47,47 +48,21 @@ figcaption {
   margin-bottom: 0px;
 }
 
-.section-body h2, .section-body h3, .section-body, .section-body p, .section-body li {
-  font-family: 'Helvetica', sans-serif;
-}
-
-.section-body h2, .section-body h3 {
-  font-weight: bold;
-  color: #313131;
-  letter-spacing: 1px;
-}
-
 .section-body h2 {
-  font-size: 35px
+  font-size: 35px;
+  font-weight: bold;
 }
 
 .section-body h3 {
   font-size: 25px;
+  font-weight: bold;
   margin-bottom: 0px;
-}
-
-.section-body h4 {
-  margin-top: 0px;
-}
-
-.section-body h4, .section-body h5 {
-  margin-bottom: 0px;
-  font-weight: 300;
 }
 
 .section-body, .section-body p, .section-body li {
   font-size: 18px;
-  color: #383a3c;
+  color: #000;
   font-weight: 300;
-}
-
-.mdl-layout__header-row {
-  padding-left: 80px;
-  padding-right: 80px;
-}
-
-.mdl-layout-tile {
-  font-size: 18px;
 }
 
 .mdl-navigation__link {
@@ -108,46 +83,36 @@ figcaption {
   background-color: #49cc49;
 }
 
-.mdl-list__item {
-  min-height: 10px;
-  padding: 3px;
-}
-
-.mdl-list__item-icon {
-  margin-right: 5px;
-}
-
 .mdl-mega-footer {
-  text-align: center;
   background-color: #999;
   padding-top: 70px;
   padding-bottom: 70px;
 }
 
 .mdl-card-image__caption {
+  height: 30px;
+  line-height: 1;
   text-align: center;
-  padding-top: 2px;
+  vertical-align: middle;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 3px;
   padding-right: 3px;
-  line-height: 1;
   background: rgba(0, 0, 0, 0.8);
 }
 
 .mdl-card-image__entry {
   color: #fff;
   font-size: 14px;
-  font-weight: 300;
 }
 
 .mdl-data-table {
   width: 100%;
   font-size: 16px;
-  font-weight: 300;
 }
 
 .mdl-data-table th {
   font-size: 18px;
-  font-weight: 300;
 }
 
 .mdl-data-table tbody tr {
@@ -169,7 +134,6 @@ figcaption {
 
 #logo {
   font: 55px 'Helvetica', sans-serif;
-  line-height: 1;
   color: #fff;
   margin-top: 80px;
   margin-bottom: 20px;
@@ -177,7 +141,6 @@ figcaption {
 
 #slogan {
   font: 25px 'Helvetica', sans-serif;
-  line-height: 1;
   color: #fff;
   margin-bottom: 30px;
 }
@@ -204,10 +167,6 @@ figcaption {
   font-weight: 400;
 }
 
-.mdl-grid {
-  width: 100%;
-}
-
 .mdl-navigation {
   margin-left: auto !important;
   margin-right: auto !important;
@@ -216,14 +175,6 @@ figcaption {
 .mdl-cell--4-col {
   width: 250px;
   margin-right: 10px;
-}
-
-.mdl-card-image__caption {
-  height: 30px;
-  vertical-align: middle;
-  line-height: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 .mdl-card-image {
