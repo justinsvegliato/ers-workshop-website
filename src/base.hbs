@@ -10,7 +10,6 @@
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -23,7 +22,29 @@
   </head>
   
   <body>
-      {{#> content-block}}
-      {{/content-block}}
+    <div id="banner" class="mdl-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="#about">About</a>
+            <a class="mdl-navigation__link" href="#submission-details">Submissions</a>
+            <a class="mdl-navigation__link" href="#invited-speakers">Invited Speakers</a>
+            <a class="mdl-navigation__link" href="#program">Program</a>
+            <a class="mdl-navigation__link" href="#accepted-papers">Accepted Papers</a>
+            <a class="mdl-navigation__link" href="#program-committee">Program Committee</a>
+            <a class="mdl-navigation__link" href="#organizing-committee">Organizers</a>
+          </nav>
+        </div>
+      </header>
+
+      <div id="logo">Building and Evaluating Ethical Robotic Systems</div>
+      <div id="slogan">IROS-2021 &#8226; October 1, 2021 &#8226; 16:00 - 18:00 CEST</div>
+      <div id="controls"><a href=""><button class="mdl-button">Submissions</button></a></div>
+    </div>
+
+    {{#> content-block}}
+    {{/content-block}}
+
+    <footer class="mdl-mega-footer"></footer>
   </body>
 </html>

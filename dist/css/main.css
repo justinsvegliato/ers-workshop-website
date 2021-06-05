@@ -81,9 +81,31 @@ figcaption {
   font-weight: 300;
 }
 
+.mdl-layout__header-row {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.mdl-layout-tile {
+  font-size: 18px;
+}
+
+.mdl-navigation__link {
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.mdl-navigation__link:hover {
+  opacity: 1.0;
+}
+
 .mdl-button {
-  margin-right: 10px;
-  margin-bottom: 13px;
+  background-color: #49cc49;
+  color: #fff;
+}
+
+.mdl-button:hover {
+  background-color: #49cc49;
 }
 
 .mdl-list__item {
@@ -138,8 +160,7 @@ figcaption {
 }
 
 #banner {
-  height: 250px;
-  padding-top: 80px;
+  height: 450px;
   background-image: url(../img/banner-4.jpg);
   background-repeat: no-repeat;
   background-position: center bottom 30%;
@@ -147,9 +168,10 @@ figcaption {
 }
 
 #logo {
-  font: 65px 'Helvetica', sans-serif;
+  font: 55px 'Helvetica', sans-serif;
   line-height: 1;
   color: #fff;
+  margin-top: 80px;
   margin-bottom: 20px;
 }
 
@@ -157,25 +179,11 @@ figcaption {
   font: 25px 'Helvetica', sans-serif;
   line-height: 1;
   color: #fff;
-}
-
-#about {
-  padding-top: 25px;
-  padding-bottom: 10px;
-}
-
-#about p {
-  text-align: justify;
+  margin-bottom: 30px;
 }
 
 #submission-details, #program, #program-committee {
   background-color: #eeeeee;
-}
-
-#primary-contact-instruction {
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
 }
 
 .denoter {
@@ -196,6 +204,20 @@ figcaption {
   font-weight: 400;
 }
 
+.mdl-grid {
+  width: 100%;
+}
+
+.mdl-navigation {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.mdl-cell--4-col {
+  width: 250px;
+  margin-right: 10px;
+}
+
 .mdl-card-image__caption {
   height: 30px;
   vertical-align: middle;
@@ -207,6 +229,14 @@ figcaption {
 .mdl-card-image {
   width: 250px;
   height: 200px;
+}
+
+#invited-speakers .mdl-grid, #organizing-committee .mdl-grid {
+  width: 82%;
+}
+
+#primary-contact-instruction {
+  text-align: center;
 }
 
 .mdl-card-image__arkin {
@@ -247,39 +277,23 @@ figcaption {
 
 @media (max-width: 1024px) {
   #banner {
-    height: 360px;
+    height: 300px;
   }
 
   #logo {
-    font-size: 30px;
+    font-size: 36px;
   }
 
-  #slogan, #date {
-    font-size: 16px;
-    width: 90%;
+  #slogan {
+    font-size: 18px;
   }
 
   .section-body {
     width: 85%;
   }
 
-  figure img {
-    width: 100% !important;
-    height: auto !important;
-    max-width: 400px;
-  }
-  
-  .buttons {
-    text-align: center;
-  }
-
   .mdl-cell {
-    width: 100%;
-  }
-
-  #organizers .mdl-card-image {
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
   }
 }
