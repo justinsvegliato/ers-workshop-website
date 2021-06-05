@@ -187,6 +187,11 @@ figcaption {
   width: 82%;
 }
 
+#invited-speakers .mdl-cell, #organizing-committee .mdl-cell {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #primary-contact-instruction {
   text-align: center;
 }
@@ -232,16 +237,25 @@ figcaption {
     height: 300px;
   }
   #logo {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 36px;
   }
   #slogan {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 18px;
   }
   .section-body {
     width: 85%;
   }
-  .mdl-cell {
-    margin-left: auto;
-    margin-right: auto;
+  #program .time {
+    width: 100%;
+  }
+  #program .description {
+    margin-top: 0px;
+    margin-bottom: 20px;
   }
 }
