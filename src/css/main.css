@@ -146,7 +146,7 @@ figcaption {
   margin-bottom: 30px;
 }
 
-#submission-details, #program, #program-committee {
+#submissions, #invited-speakers, #program-committee {
   background-color: #eeeeee;
 }
 
@@ -176,18 +176,18 @@ figcaption {
 .mdl-cell--4-col {
   width: 250px;
   margin-right: 10px;
-}
+}s
 
 .mdl-card-image {
   width: 250px;
   height: 200px;
 }
 
-#invited-speakers .mdl-grid, #organizing-committee .mdl-grid {
+#invited-speakers .mdl-grid, #organizers .mdl-grid {
   width: 82%;
 }
 
-#invited-speakers .mdl-cell, #organizing-committee .mdl-cell {
+#invited-speakers .mdl-cell, #organizers .mdl-cell {
   margin-left: auto;
   margin-right: auto;
 }
@@ -196,8 +196,20 @@ figcaption {
   margin-top: 15px;
 }
 
+.organizer-name {
+  font-weight: bold;
+}
+
+.organizer-affilitation {
+  font-weight: 300;
+}
+
 #primary-contact-instruction {
   text-align: center;
+}
+
+#primary-contact-instruction .material-icons {
+  font-size: 15px;
 }
 
 .mdl-card-image__arkin {
@@ -206,30 +218,6 @@ figcaption {
 
 .mdl-card-image__scheutz {
   background: url('../img/matthias-scheutz-photo.png') center / cover;
-}
-
-.mdl-card-image__hadfield-menell {
-  background: url('../img/dylan-hadfield-menell-photo.png') center / cover;
-}
-
-.mdl-card-image__svegliato {
-  background: url('../img/justin-svegliato-photo.jpg') center / cover;
-}
-
-.mdl-card-image__nashed {
-  background: url('../img/samer-nashed-photo.jpg') center / cover;
-}
-
-.mdl-card-image__dennis {
-  background: url('../img/louise-dennis-photo.jpg') center / cover;
-}
-
-.mdl-card-image__winfield {
-  background: url('../img/alan-winfield-photo.jpg') center / cover;
-}
-
-.mdl-card-image__bello {
-  background: url('../img/enobong_hannah_branch.jpg') center / cover;
 }
 
 .empty-cell {
