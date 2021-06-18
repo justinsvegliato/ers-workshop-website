@@ -176,7 +176,7 @@ figcaption {
 .mdl-cell--4-col {
   width: 250px;
   margin-right: 10px;
-}s
+}
 
 .mdl-card-image {
   width: 250px;
@@ -218,6 +218,14 @@ figcaption {
 
 .mdl-card-image__scheutz {
   background: url('../img/matthias-scheutz-photo.png') center / cover;
+}
+
+.mdl-card-image__kuipers {
+  background: url('../img/ben-kuipers-photo.jpeg') center / cover;
+}
+
+.mdl-card-image__rossi {
+  background: url('../img/francesca-rossi-photo.jpeg') center / cover;
 }
 
 .empty-cell {
