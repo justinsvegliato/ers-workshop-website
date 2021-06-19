@@ -78,14 +78,16 @@ figcaption {
 .mdl-button {
   background-color: #49cc49;
   color: #fff;
+  text-transform: none;
+  font-size: 18px;
 }
 
 .mdl-button:hover {
-  background-color: #49cc49;
+  background-color: #134812f0;
 }
 
 .mdl-mega-footer {
-  background-color: #999;
+  background-color: #45006f;
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -127,9 +129,10 @@ figcaption {
 
 #banner {
   height: 450px;
-  background-image: url(../img/banner-4.jpg);
+  background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
-  background-position: center bottom 30%;
+  background-size: cover;
+  background-position: 50% 0%;
   text-align: center;
 }
 
