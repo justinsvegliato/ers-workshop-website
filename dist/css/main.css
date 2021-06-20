@@ -177,17 +177,17 @@ figcaption {
 }
 
 .mdl-cell--4-col {
-  width: 250px;
+  width: 190px;
   margin-right: 10px;
 }
 
 .mdl-card-image {
-  width: 250px;
+  width: 190px;
   height: 200px;
 }
 
 #invited-speakers .mdl-grid, #organizers .mdl-grid {
-  width: 82%;
+  width: 95%;
 }
 
 #invited-speakers .mdl-cell, #organizers .mdl-cell {
