@@ -200,6 +200,7 @@ figcaption {
 
 .organizer-name {
   font-weight: bold;
+  text-decoration: none !important;
 }
 
 .organizer-affilitation {
