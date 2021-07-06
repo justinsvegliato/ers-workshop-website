@@ -80,7 +80,7 @@ figcaption {
   background-color: #49cc49;
   color: #fff;
   text-transform: none;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .mdl-button:hover {
@@ -238,7 +238,7 @@ figcaption {
 
 @media (max-width: 1024px) {
   #banner {
-    height: 360px;
+    height: 300px;
   }
   #logo {
     width: 90%;
