@@ -186,10 +186,6 @@ figcaption {
   height: 200px;
 }
 
-#invited-speakers .mdl-grid, #organizers .mdl-grid {
-  width: 100%;
-}
-
 #invited-speakers .mdl-cell, #organizers .mdl-cell {
   margin-left: auto;
   margin-right: auto;
@@ -232,13 +228,17 @@ figcaption {
   background: url('../img/francesca-rossi-photo.jpeg') center / cover;
 }
 
+.mdl-card-image__malle {
+  background: url('../img/bertram-malle-photo.png') center / cover;
+}
+
 .empty-cell {
   text-align: center !important;
 }
 
 @media (max-width: 1024px) {
   #banner {
-    height: 300px;
+    height: 400px;
   }
   #logo {
     width: 90%;
