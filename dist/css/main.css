@@ -89,7 +89,6 @@ figcaption {
 
 .mdl-mega-footer {
   background-color: #45006f;
-  padding-top: 70px;
   padding-bottom: 70px;
 }
 
@@ -150,7 +149,7 @@ figcaption {
   margin-bottom: 30px;
 }
 
-#submissions, #invited-speakers, #program-committee {
+#submissions, #dates, #program-committee {
   background-color: #eeeeee;
 }
 
@@ -234,6 +233,27 @@ figcaption {
 
 .empty-cell {
   text-align: center !important;
+}
+
+#sponsor-title {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 4px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#sponsors {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#chai-logo, #beri-logo {
+  max-height: 150px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
 }
 
 @media (max-width: 1024px) {
