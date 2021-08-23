@@ -115,6 +115,7 @@ figcaption {
 .mdl-data-table {
   width: 100%;
   font-size: 16px;
+  white-space: normal;
 }
 
 .mdl-data-table th {
@@ -128,6 +129,10 @@ figcaption {
 .mdl-data-table td {
   padding: 6px 10px;
   height: auto;
+}
+
+.mdl-data-table__cell--non-numeric {
+  max-width: 50%;
 }
 
 #banner {
@@ -152,7 +157,7 @@ figcaption {
   margin-bottom: 30px;
 }
 
-#submissions, #dates, #program-committee {
+#submissions, #dates, #program, #program-committee {
   background-color: #eeeeee;
   background-image: url("../img/subtle-surface.png");
 }
@@ -167,12 +172,14 @@ figcaption {
 
 .time {
   color: #982833;
-  font-weight: 400;
 }
 
-.description {
-  color: #0a4489;
-  font-weight: 400;
+.title {
+  color: #448aff;
+}
+
+.name {
+  color: #982833;
 }
 
 .mdl-navigation {
