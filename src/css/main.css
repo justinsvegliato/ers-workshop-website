@@ -28,7 +28,11 @@ figcaption {
 }
 
 hr {
-  margin: 5px;
+  margin: 10px;
+}
+
+li {
+  margin-bottom: 8px;
 }
 
 ::-moz-selection {
@@ -200,7 +204,7 @@ hr {
 
 .video-container {
   text-align: center;
-  margin-top: 0px;
+  margin-top: 8px;
 }
 
 .time-zone {
@@ -305,11 +309,16 @@ hr {
   .section-body {
     width: 85%;
   }
-  #program .time {
-    width: 100%;
-  }
   #program .description {
     margin-top: 0px;
     margin-bottom: 20px;
+  }
+  .mdl-cell--1-col {
+    text-align: center;
+    width: 100%;
+    line-height: 14px;
+  }
+  .event-description {
+    margin-top: 10px;
   }
 }
