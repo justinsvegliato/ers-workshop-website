@@ -217,7 +217,8 @@ li {
   margin-right: auto !important;
 }
 
-.mdl-cell--3-col {
+.mdl-cell--4-col {
+  text-align: center;
   width: 200px;
 }
 
@@ -250,18 +251,26 @@ li {
 
 .mdl-card-image__scheutz {
   background: url('../img/matthias-scheutz-photo.png') center / cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mdl-card-image__kuipers {
   background: url('../img/ben-kuipers-photo.jpeg') center / cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mdl-card-image__rossi {
   background: url('../img/francesca-rossi-photo.jpeg') center / cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mdl-card-image__malle {
   background: url('../img/bertram-malle-photo.png') center / cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .empty-cell {
