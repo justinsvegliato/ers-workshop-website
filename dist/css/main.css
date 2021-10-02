@@ -198,6 +198,13 @@ li {
   color: #000;
 }
 
+.award-winner {
+  color: #4BB543;
+  font-weight: bold;
+  font-variant: small-caps;
+
+}
+
 .mdl-cell--1-col {
   text-align: right;
 }
